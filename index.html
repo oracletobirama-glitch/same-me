@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Save Me</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Save Me</h1>
+    <p class="lede">A personal tool that saves WhatsApp contacts to a Google Sheet and Google Contacts.</p>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </header>
+
+  <p>Save Me is a small private application. It reads the display name and phone
+  number of people who appear in the owner's own WhatsApp chats and records them
+  as contacts, so they do not have to be typed in by hand.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Saves each contact under the name that person set for themself on WhatsApp</li>
+    <li>Records them in a Google Sheet in the owner's own Google Drive</li>
+    <li>Creates them as contacts in the owner's own Google Contacts</li>
+    <li>Identifies people by phone number, so nobody is saved twice</li>
+    <li>Numbers exact duplicate names — the second Jason becomes "Jason 2"</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>It is a single-user application, run by its owner on their own computer, for
+  their own contacts. It is not a service, it is not offered to the public, and
+  it has no accounts to sign up for.</p>
+
+  <div class="card">
+    <p><strong>No servers.</strong> Save Me runs entirely on the owner's own
+    machine. There is no hosted backend, no database belonging to anyone else,
+    and no third party that receives the data. Contacts go from WhatsApp to the
+    owner's own Google account and nowhere else.</p>
+  </div>
+
+  <h2>Google data it uses</h2>
+  <table>
+    <tr><th>Google Sheets</th><td>Creates and writes one spreadsheet — the contact list</td></tr>
+    <tr><th>Google Contacts</th><td>Creates contacts in the owner's account</td></tr>
+  </table>
+  <p>Both are described in full in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    <p>Save Me is a personal project. Questions: <a href="mailto:novacontactstt@gmail.com">novacontactstt@gmail.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
