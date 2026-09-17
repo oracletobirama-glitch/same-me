@@ -32,11 +32,12 @@
   access photos, media, location, or call history.</p>
 
   <h2>3. Google user data</h2>
-  <p>Save Me requests two Google API scopes, both applying only to the account
+  <p>Save Me requests three Google API scopes, all applying only to the account
   that authorises it:</p>
   <table>
     <tr><th><code>.../auth/spreadsheets</code></th><td>To create one spreadsheet and write contacts to it</td></tr>
     <tr><th><code>.../auth/contacts</code></th><td>To create contacts, and to read existing ones only so that duplicates are not created</td></tr>
+    <tr><th><code>.../auth/userinfo.email</code></th><td>Read-only. Used once, during setup, to display which account was authorised, so that contacts are not written to the wrong account by mistake. The address is shown on screen and is not stored or transmitted anywhere.</td></tr>
   </table>
   <p>Google data is used solely to provide the contact-saving feature the owner
   asked for. It is never used for advertising, never sold, never transferred to
